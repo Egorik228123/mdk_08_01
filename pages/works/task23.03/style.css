@@ -1,0 +1,118 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: rgb(237, 247, 255);
+}
+nav {
+    text-decoration: none;
+}
+a {
+    text-decoration: auto; 
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 18px;
+}
+* {
+    font-size: 16px;
+    font-family: Helvetica;
+    line-height: 0.75cm;
+}
+.perm {
+    height: 500px;
+    border-radius: 15px;
+    width: 100%;
+    background: url(img/perm.jpeg);
+    background-size: cover;
+}
+#perm, #about, #history, #weather, #places, #footer {
+    text-align: center;
+}
+.map {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.ul .li {
+    display: inline-block;
+}
+.ul {
+    background: rgb(208, 234, 255);
+    border-radius: 10px;
+    text-align: center;
+}
+.li {
+    padding: 10px;
+}
+.prew {
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.park {
+    background: url(img/park.jpg);
+    background-size: cover;
+}
+.esplanada {
+    background: url(img/esplanada.jpg);
+    background-size: cover;
+}
+.gallery {
+    background: url(img/gallery.jpg);
+    background-size: cover;
+}
+.drevnosti {
+    background: url(img/musei_drevnostey.jpg);
+    background-size: cover;
+}
+.moya_rasia {
+    background: url(img/moya_rosiya.jpg);
+    background-size: cover;
+}
+.naberezhnaya {
+    background: url(img/naberezhnaya.jpg);
+    background-size: cover;
+}
+img {
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+}
+.photos {
+    text-align: center;
+}
+section {
+    margin: 20px 0px 20px 0px;
+    background: rgb(228, 243, 255);
+    border-radius: 15px;
+    padding: 10px;
+}
+main {
+    margin-left: 200px;
+    margin-right: 200px;
+    border-style: double;
+    border-width: 0px 10px 0px 10px;
+    border-color: rgb(208, 234, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.button {
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}

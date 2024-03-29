@@ -1,0 +1,76 @@
+body {
+    background: rgb(222, 222, 255);
+}
+nav {
+    text-decoration: none;
+}
+a {
+    text-decoration: auto;
+}
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 18px;
+}
+* {
+    font-size: 16px;
+    font-family: Verdana;
+}
+.prew {
+    width: 200px;
+    height: 100px;
+}
+.new1 {
+    background: url("../images/001.jpg");
+    background-size: cover;
+}
+.new2 {
+    background: url("../images/002.jpg");
+    background-size: cover;
+}
+.new3 {
+    background: url("../images/003.jpg");
+    background-size: cover;
+}
+.nav1 {
+    background: rgb(36, 36, 36);
+    background-size: cover;
+}
+.nav2 {
+    background: rgb(65, 62, 62);
+    background-size: cover;
+}
+.nav3 {
+    background: rgb(37, 35, 35);
+    background-size: cover;
+}
+.kurs {
+    background: url("../images/IMG_20240127_141625.jpg");
+    background-size: cover;
+}
+ul li {
+    display: inline-block;
+}
+.pr2 {
+    background: rgb(188, 188, 255);
+}
+ul {
+    background: rgb(188, 188, 255);
+    border-radius: 10px;
+}
+li {
+    padding: 10px;
+}
+.content {
+    display: flex;
+}
+main {
+    width: 70%;
+}
+aside {
+    width: 30%;
+}
