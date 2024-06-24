@@ -1,5 +1,9 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url("../fonts/Open_Sans/OpenSans.ttf");
+}
 body {
-    background: rgb(222, 222, 255);
+    background: rgb(236, 236, 255);
 }
 nav {
     text-decoration: none;
@@ -8,17 +12,18 @@ a {
     text-decoration: auto;
 }
 h1 {
-    font-size: 24px;
+    font-size: 28px;
 }
 h2 {
-    font-size: 20px;
+    font-size: 22px;
 }
 h3 {
     font-size: 18px;
 }
 * {
     font-size: 16px;
-    font-family: Verdana;
+    font-family: OpenSansRegular;
+    box-sizing: border-box;
 }
 .prew {
     width: 200px;
@@ -36,12 +41,20 @@ h3 {
     background: url("../images/003.jpg");
     background-size: cover;
 }
+.naviki {
+    display: flex;
+    gap: 10px;
+}
+.naviki section {
+    border: 1px solid black;
+    padding: 5px;
+}
 .nav1 {
-    background: rgb(36, 36, 36);
+    background: url("../images/navik1.webp");
     background-size: cover;
 }
 .nav2 {
-    background: rgb(65, 62, 62);
+    background: url("../images/navik2.jpg");
     background-size: cover;
 }
 .nav3 {
@@ -55,22 +68,36 @@ h3 {
 ul li {
     display: inline-block;
 }
-.pr2 {
-    background: rgb(188, 188, 255);
-}
 ul {
     background: rgb(188, 188, 255);
-    border-radius: 10px;
+    border-radius: 6px;
 }
 li {
     padding: 10px;
 }
-.content {
+.content  {
     display: flex;
 }
-main {
-    width: 70%;
+.content main article {
+    width: 250px;
+    border: 1px solid black;
+    padding: 0 10px;
 }
-aside {
-    width: 30%;
+.content section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.naviki {
+    display: flex;
+    flex-wrap: wrap;
+}
+.novosti main {
+    width: 85%;
+}
+.novosti aside {
+    width: 15%;
+}
+aside article p {
+    margin-left: 10px;
 }
