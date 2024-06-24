@@ -1,0 +1,81 @@
+@font-face {
+    font-family: fff;
+    src: url("../../../fonts/18688.ttf");
+}
+* {
+    font-family: fff;
+}
+a {
+    font-style: italic;
+    font-family: Arial;
+    font-size: 19px;
+}
+h1 {
+    margin: 30px 0;
+    font-size: 60px;
+    font-style: italic;
+}
+ul li {
+    display: inline-block;
+}
+nav {
+    text-align: center;
+    height: 60px;
+}
+li {
+    padding: 10px 20px;
+}
+li:hover {
+    border-bottom: 3px solid black;
+}
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.buy span {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+article {
+    width: 300px;
+}
+img {
+    height: 200px;
+    width: 250px;  
+}
+button {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    border-style: none;
+    background: rgb(255, 94, 0);
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+button:hover {
+    background: rgb(255, 38, 0);
+    transition: 0.5s;
+    .korzina {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+}
+.buy {
+    display: flex;
+    justify-content: space-between;
+}
+.korzina {
+    width: 30px;
+    height: 30px;
+    padding: 10px 0px;
+    font-size: 14px;
+}

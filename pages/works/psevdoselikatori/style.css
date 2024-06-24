@@ -1,0 +1,126 @@
+* {
+    text-decoration: none;
+}
+.task1 li {
+    color: blue;
+}
+.task2 li {
+    color: blue;
+    border: 2px solid blue;
+    margin-bottom: 10px;
+    width: 150px;
+    padding: 5px;
+    list-style-type: none;
+}
+.task2 li:hover {
+    font-weight: bold;
+}
+.task3 li {
+    color: white;
+    background: gray;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+    width: 150px;
+    padding: 5px;
+    list-style-type: none;
+}
+.task3 li:hover {
+    background: white;
+    color: gray;
+    font-weight: bold;
+}
+.task4 li {
+    color: white;
+    background: rgb(37, 157, 255);
+    border: 2px solid rgb(37, 157, 255);
+    margin-bottom: 10px;
+    width: 150px;
+    padding: 5px;
+    list-style-type: none;
+}
+.task4 li:hover {
+    background: white;
+    color: blue;
+    font-weight: bold;
+    
+}
+.task4 li:hover::after {
+    content: url("img/blue.png");
+    background-size: 25px 25px;
+    float: right;
+}
+.task5 li {
+    display: inline-block;
+    color: blue;
+    font-weight: bold;
+    border: 2px solid blue;
+    padding: 5px;
+    list-style-type: none;
+}
+.task5 li:hover {
+    background: white;
+    color: red;
+}
+.task6 li {
+    display: inline-block;
+    color: blue;
+    border: 2px solid rgb(50, 14, 211);
+    padding: 5px;
+    list-style-type: none;
+}
+.task6 li:hover {
+    border: 2px solid black;
+    background: rgb(85, 85, 85);
+    color: white;
+}
+.task7 {
+    border-bottom: 2px dotted black;
+    border-top: 2px dotted black;
+    padding: 10px 0;
+    width: 470px;
+}
+.task7 li {
+    display: inline-block;
+    width: 80px;
+    margin: 0 5px;
+    text-align: center;
+}
+.task7 li:hover {
+    color: blue;
+}
+.task8 {
+    background: orange;
+}
+.task8 li {
+    display: inline-block;
+    margin-left: -4px;
+    padding: 10px 15px;
+    color: white;
+}
+.task8 li:hover {
+    background: rgb(176, 0, 0);
+}
+table {
+    font-family: Arial;
+    border-collapse: collapse;
+    color: gray;
+    text-align: center;
+    font-weight: 500;
+}
+table td {
+    padding: 5px;
+}
+table tr td:nth-child(6),
+table tr td:nth-child(7) {
+    color: powderblue;
+}
+table .top {
+   border-bottom: 2px solid black;
+   font-weight: bold;
+}
+.seven {
+    color: red;
+}
+tr:nth-child(3) td:nth-child(3) {
+    text-decoration: underline 2px;
+}

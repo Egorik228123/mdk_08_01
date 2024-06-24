@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Open_Sans;
+    src: url("../../../fonts/Open_Sans/OpenSans.ttf");
+}
+* {
+    font-family: Open_Sans;
+}
+h2 {
+    text-align: center;
+    font-size: 32px;
+}
+.orange span {
+    font-size: 45px;
+    font-weight: bold;
+}
+.orange p {
+    line-height: 0;
+    margin: 5px 0;
+    font-weight: bold;
+}
+.text {
+    width: 400px;
+    font-weight: 400;
+}
+.text a {
+    color: orangered;
+    text-decoration: none;
+}
+.text b {
+    font-weight: 700;
+}
+
+
+.orange {
+    height: 80px;
+    width: 80px;
+    background: rgb(255, 93, 35);
+    color: white;
+    padding: 15px;
+    border-radius: 80px;
+
+    text-align: center;
+}
+section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+button {
+    border: 1px solid rgb(194, 194, 194);
+    padding: 12px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+button:hover {
+    background: rgb(194, 194, 194);
+    cursor: pointer;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
