@@ -1,0 +1,34 @@
+.box-1 {   
+    background: skyblue;
+    height: 95px;   
+    line-height: 95px;   
+    text-align: center;   
+    width: 95px; 
+}
+.box-2 {   
+  background: skyblue;
+  height: 95px;   
+  line-height: 95px;   
+  text-align: center;   
+  width: 95px; 
+}
+  
+.box-1 {
+    animation-name: demo;
+    animation-duration: 2.5s;
+}
+.box-2:hover {
+    transform: rotate(180deg);
+    transition: 2.5s;
+}
+@keyframes demo { 
+    0% {        
+      rotate: 0deg;   
+    }   
+    50% {        
+      rotate: 90deg; 
+    }   
+    100% {        
+      rotate: 180deg; 
+    }
+} 

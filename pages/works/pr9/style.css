@@ -1,0 +1,101 @@
+/* Задание 1 */
+.line li {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 40px;
+    background: rgb(255, 198, 198);
+}
+/* Задание 2 */
+.links a {
+    display: block;
+    background: blue;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+}
+.links a:hover {
+    background: white;
+    color: blue;
+}
+/* Задание 3 */
+.blocks {
+    margin: 30px 0 0 20px;
+}
+.blocks div {
+    display: inline;
+    margin-right: 20px;
+    padding: 15px;
+    background: red;
+}
+/* Задание 4 */
+.blocks .non {
+    display: none;
+}
+/* Задание 5 */
+.links-markers {
+    margin: 30px 0;
+    width: 200px;
+}
+.links-markers a {
+    display: list-item;
+    background: black;
+    color: white;
+    padding: 10px;
+}
+/* Задание 6 */
+.image {
+    background: url(img/weather-blizzard.jpg);
+    background-size: cover;
+    height: 80px;
+    width: 100px;
+}
+.post1 .image {
+    float: left;
+    border: 3px dashed pink;
+    margin-right: 20px;
+}
+.post2 .image {
+    float: right;
+    border: 3px dashed pink;
+    margin-left: 20px;
+}
+.post1,
+.post2 {
+    background: #930303;
+    color: white;
+}
+/* Задание 7 */
+.weather {
+    margin: 30px 0;
+}
+.weather_block {
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+}
+.images {
+    height: 80px;
+    width: 100px;
+    display: inline-block;
+}
+.sun {
+    background: url(img/weather-sun.jpg);
+    background-size: cover;
+}
+.snow {
+    background: url(img/weather-snow.jpg);
+    background-size: cover;
+}
+.blizzard {
+    background: url(img/weather-blizzard.jpg);
+    background-size: cover;
+}
+.weather_block div:first-child {
+    background: skyblue;
+    color: white;
+}
+.weather_block div:last-child {
+    font-size: 26px;
+}
